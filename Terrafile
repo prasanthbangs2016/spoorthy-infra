@@ -1,0 +1,13 @@
+s3:
+    source:  "https://github.com/prasanthbangs2016/spoorthy-tf-module-s3.git"
+    version: "main"
+
+ec2:
+    source:  "https://github.com/prasanthbangs2016/spoorthy-tf-module-ec2.git"
+    version: "main"
+
+
+
+
+
+

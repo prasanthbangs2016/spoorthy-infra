@@ -1,0 +1,5 @@
+spoothy_bucket_name       = "spoorthy_s3_bucket"
+spoothy_bucket_tag_name   = "spoorty_RND"
+spoothy_bucket_tag_env    = "Sandbox"
+ami_id                    = "ami-0b5a2b5b8f2be4ec2"
+instance_type             = "t3.micro"
