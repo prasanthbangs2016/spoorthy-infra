@@ -1,16 +1,16 @@
 module "s3" {
     source                 = "./vendor/modules/s3/"
-    spoothy_bucket_name     = "${var.spoothy_bucket_name}"
-    spoothy_bucket_tag_name = "${var.spoothy_bucket_tag_name}"
-    spoothy_bucket_tag_env  = "${var.spoothy_bucket_tag_env}"
+    spoothy-bucket-name     = "${var.spoothy-bucket-name}"
+    spoothy-bucket-tag_name = "${var.spoothy-bucket-tag-name}"
+    spoothy-bucket-tag_env  = "${var.spoothy-bucket-tag-env}"
 }
 
 module "ec2" {
     source                 = "./vendor/modules/ec2/"
     instance_type          = "${var.instance_type}"
     ami_id                 = "${var.ami_id}"
-    spoothy_bucket_tag_name = "${var.spoothy_bucket_tag_name}"
-    spoothy_bucket_tag_env  = "${var.spoothy_bucket_tag_env}"
+    spoothy-bucket-tag_name = "${var.spoothy-bucket-tag-name}"
+    spoothy-bucket-tag_env  = "${var.spoothy-bucket-tag-env}"
 
 }
 
