@@ -7,10 +7,10 @@ module "s3" {
 
 module "ec2" {
     source                 = "./vendor/modules/ec2/"
-    instance_type          = "${var.instance_type}"
-    ami_id                 = "${var.ami_id}"
-    spoothy_bucket_tag_name = "${var.spoothy_bucket_tag_name}"
-    spoothy_bucket_tag_env  = "${var.spoothy_bucket_tag_env}"
+    # instance_type          = "${var.instance_type}"
+    # ami_id                 = "${var.ami_id}"
+    # spoothy_bucket_tag_name = "${var.spoothy_bucket_tag_name}"
+    # spoothy_bucket_tag_env  = "${var.spoothy_bucket_tag_env}"
 
 }
 
